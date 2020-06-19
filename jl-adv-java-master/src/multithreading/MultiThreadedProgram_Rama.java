@@ -25,11 +25,10 @@ public class MultiThreadedProgram_Rama {
 }
 
 class ChildThreadForeLeg1 extends Thread {
-	public ChildThreadForeLeg1() {
-		System.out.println("Cons");
-	}
+//	public ChildThreadForeLeg1() {
+//		System.out.println("Cons");
+//	}
 
-	@Override
 	public void run() {
 		System.out.println("Drink Coke");
 		drinkCoke();
@@ -43,8 +42,7 @@ class ChildThreadForeLeg1 extends Thread {
 	}
 }
 
-class ChildThreadForeLeg2 extends Thread {
-	@Override
+class ChildThreadForeLeg2 extends java.lang.Thread {
 	public void run() {
 		eatPizza();
 	}
