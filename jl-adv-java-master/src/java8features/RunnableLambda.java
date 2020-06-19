@@ -1,4 +1,4 @@
-package functional_programming;
+package java8features;
 
 public class RunnableLambda {
 	public static void main(String[] args) {
