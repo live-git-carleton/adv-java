@@ -53,4 +53,5 @@ Java App / Mysql
 
 :bulb: Boss, give me the picture?  
  
+![](diagrams/layer-arch-v1.png)  
 
