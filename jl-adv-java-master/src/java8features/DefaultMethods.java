@@ -7,9 +7,11 @@ public class DefaultMethods {
 		defaultMethodsClass.test1();
 		defaultMethodsClass.test2();
 		DefaultMethodsInterface.test5();
+
 	}
 }
 
+@FunctionalInterface
 interface DefaultMethodsInterface {
 	public void test();
 
@@ -33,5 +35,4 @@ class DefaultMethodsClass implements DefaultMethodsInterface {
 		System.out.println("test method!");
 
 	}
-
 }
