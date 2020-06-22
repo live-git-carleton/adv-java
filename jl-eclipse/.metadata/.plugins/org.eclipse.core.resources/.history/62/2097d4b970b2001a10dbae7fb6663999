@@ -1,7 +1,0 @@
-package functional_programming;
-
-public class CustomLambda {
-	public static void main(String[] args) {
-
-	}
-}

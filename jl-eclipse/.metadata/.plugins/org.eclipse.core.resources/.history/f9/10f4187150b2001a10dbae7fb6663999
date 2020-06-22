@@ -1,9 +1,0 @@
-package multithreading;
-
-public class StopMethod {
-	public static void main(String[] args) {
-		System.out.println("main");
-		Thread.currentThread().stop();
-		System.out.println("main");
-	}
-}
