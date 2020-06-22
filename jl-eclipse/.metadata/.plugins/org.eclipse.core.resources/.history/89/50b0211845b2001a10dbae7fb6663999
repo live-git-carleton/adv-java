@@ -1,0 +1,19 @@
+package multithreading;
+
+public class CallingRun {
+	public static void main(String[] args) {
+		for (int i = 0; i < 100; i++) {
+			System.out.println("Main " + i);
+		}
+		TestThread testThread = new TestThread();
+		testThread.run();
+	}
+}
+
+class TestThread extends Thread {
+	public void run() {
+		for (int i = 0; i < 100; i++) {
+			System.out.println("Child " + i);
+		}
+	}
+}

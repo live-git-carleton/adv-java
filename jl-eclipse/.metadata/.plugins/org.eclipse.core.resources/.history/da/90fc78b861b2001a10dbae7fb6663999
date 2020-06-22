@@ -1,0 +1,12 @@
+package multithreading;
+
+public class RunnableEx {
+
+}
+
+class TestRE1{
+	
+}
+class TestRE2{
+	
+}

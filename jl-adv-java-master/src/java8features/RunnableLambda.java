@@ -2,30 +2,9 @@ package java8features;
 
 public class RunnableLambda {
 	public static void main(String[] args) {
-		// runnable with anonymous instance
-		Runnable runnable = new Runnable() {
-			@Override
-			public void run() {
-				System.out.println("Runnable with anonymous class");
-			}
-		};
-		new Thread(runnable).start();
-
-		// Functional Interface : Runnable
-		// In oops you need a class to create an object
-		// In fp you need a functional interface
-		// Writing a lambda expression () -> {}
-		Runnable runnable2 = () -> System.out.println("Running with lambda!");
-		new Thread(runnable2).start();
-
-		new Thread(() -> System.out.println("Wow, this is awesome")).start();
-
-		new Thread(() -> {
-			for (int i = 0; i < 5; i++)
-				System.out.println(i);
-		}).start();
-
+		new Thread(() -> System.out.println("Wow, this is awesome...")).start();
 	}
+}
 //	public static void main(String[] args) {
 //		// method 1
 ////		MyRunnable myRunnable = new MyRunnable();
@@ -51,7 +30,6 @@ public class RunnableLambda {
 //			}
 //		}).start();
 //	}
-}
 
 //class MyRunnable implements Runnable {
 //	public void run() {

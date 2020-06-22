@@ -1,0 +1,15 @@
+package multithreading;
+
+public abstract class AbstractClassWithConstructor {
+	public AbstractClassWithConstructor() {
+
+			System.out.println("This is derived cons!");
+		}
+	}
+}
+
+class Derived extends AbstractClassWithConstructor{
+	Derived(){
+		System.out.println("This is derived cons!");
+	}
+}

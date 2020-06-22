@@ -1,0 +1,19 @@
+package multithreading;
+
+public class RunnableEx {
+
+}
+
+class TestRE1 {
+
+}
+
+class TestRE2 extends TestRE1 implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.println("Child Thread.");
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package multithreading;
+
+public class Synchronization_Cafetaria {
+	public static void main(String[] args) {
+
+	}
+}
+
+//Resource (any object that is used by the thread (threads)
+class Oven {
+	public void cook(String food) {
+		for (int i = 0; i < 100; i++) {
+			System.out.println("Cooking : " + food);
+		}
+	}
+}
+
+//Action : Two people, Colette & Malik
+class Person extends CallingRun implements Runnable{
+
+}

@@ -1,0 +1,6 @@
+
+public class FooShallowClone {
+	public static void main(String[] args) {
+
+	}
+}

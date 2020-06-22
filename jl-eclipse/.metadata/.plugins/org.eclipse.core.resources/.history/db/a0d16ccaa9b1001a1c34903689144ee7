@@ -1,0 +1,8 @@
+
+public class FooShallowClone {
+	public int[] nums;
+	public String nameString = "Foo";
+	public static void main(String[] args) {
+
+	}
+}

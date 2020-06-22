@@ -1,0 +1,15 @@
+
+public class FooShallowClone {
+	public int[] nums;
+	public String nameString = "Foo";
+
+	public FooShallowClone(int size) {
+		nums = new int[size];
+	}
+
+	public  static void main(String[] args) {
+		FooShallowClone f1 = new FooShallowClone(5);
+		f1.nums[0] = 100;
+		
+	}
+}

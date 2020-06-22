@@ -1,0 +1,9 @@
+package java8features;
+
+public interface DefaultMethods {
+	public void test();
+
+	void test1() {
+		System.out.println("Hi, sound cool, method with body!");
+	}
+}

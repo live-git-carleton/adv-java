@@ -18,8 +18,8 @@ public class Synchronization_Cafetaria {
 //Resource (any object that is used by the thread (threads)
 class Oven {
 	public synchronized void cook(String food) {
-
 		for (int i = 1; i < 100; i++) {
+
 			System.out.println("Cooking : " + food + " Timer : " + i);
 		}
 	}

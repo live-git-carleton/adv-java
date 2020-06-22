@@ -12,5 +12,9 @@ public class MethodReference {
 		// namesList.forEach((element) -> System.out.println(element));
 
 		namesList.forEach(System.out::println);
+
+		for (String nameString : namesList) {
+			System.out.println(nameString);
+		}
 	}
 }

@@ -13,7 +13,7 @@ public class WritePersonObject_ObjectOutputStream {
 			FileOutputStream fileOutputStream = new FileOutputStream(file);
 			ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
 			Person person = new Person("Sam for Coffee", 5, 'M');
-			System.out.println("Written Object " + person);
+			System.out.println("Written Object ");
 			objectOutputStream.writeObject(person);
 
 		} catch (FileNotFoundException e) {

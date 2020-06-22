@@ -1,0 +1,13 @@
+package multithreading;
+
+public class CallingRun {
+	public static void main(String[] args) {
+
+	}
+}
+
+class Thread {
+	public void run() {
+
+	}
+}

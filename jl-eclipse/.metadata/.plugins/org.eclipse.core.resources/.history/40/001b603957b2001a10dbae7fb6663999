@@ -1,0 +1,33 @@
+package multithreading;
+
+public class Synchronization_Cafetaria {
+	public static void main(String[] args) {
+//The brand new LG Oven for the cafetaria.
+		Oven 
+	}
+}
+
+//Resource (any object that is used by the thread (threads)
+class Oven {
+	public void cook(String food) {
+		for (int i = 0; i < 100; i++) {
+			System.out.println("Cooking : " + food);
+		}
+	}
+}
+
+//Action : Two people, Colette & Malik
+class Person extends Thread {
+//The person has to access the cook button
+	Oven oven = null;
+	String food = null;
+
+	private Person(Oven ovenParameter) {
+		this.oven = ovenParameter;
+	}
+
+// The person hits the cook button.
+	public void run() {
+		oven.cook(food);
+	}
+}

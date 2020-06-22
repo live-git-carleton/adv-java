@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="io.Person"/>
+<fullyQualifiedTypeName name="multithreading.MultithreadedProgram_Rama"/>
+<fullyQualifiedTypeName name="multithreading.C1"/>
+<fullyQualifiedTypeName name="multithreading.ChildThreadForeLeg1"/>
+<fullyQualifiedTypeName name="multithreading.ChildThreadForeLeg2"/>
+<fullyQualifiedTypeName name="com.lms.repository.CourseRepository"/>
+<fullyQualifiedTypeName name="com.lms.model.Course"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.CSS"/>
+<fullyQualifiedTypeName name="com.lms.service.CourseService"/>
+<fullyQualifiedTypeName name="FooShallowClone"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="cloning.FooDeepClone"/>
+<fullyQualifiedTypeName name="fundamentals.Derived"/>
+<fullyQualifiedTypeName name="multithreading.TestThread"/>
+<fullyQualifiedTypeName name="multithreading.ThreadPriorityDemo"/>
+<fullyQualifiedTypeName name="multithreading.ThreadNames"/>
+<fullyQualifiedTypeName name="multithreading.CallingRun"/>
+<fullyQualifiedTypeName name="multithreading.Oven"/>
+<fullyQualifiedTypeName name="multithreading.Person"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="multithreading.TestRE1"/>
+<fullyQualifiedTypeName name="multithreading.TestRE2"/>
+<fullyQualifiedTypeName name="multithreading.Derived"/>
+<fullyQualifiedTypeName name="multithreading.AbstractBase"/>
+<fullyQualifiedTypeName name="multithreading.DerivedClass"/>
+<fullyQualifiedTypeName name="functional_programming.MyRunnable"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="functional_programming.Addable"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java8features.MethodReference"/>
+<fullyQualifiedTypeName name="java8features.InterfaceWithDefaultMethods"/>
+<fullyQualifiedTypeName name="java8features.DefaultMethodsClass"/>
+<fullyQualifiedTypeName name="java8features.DefaultMethodsInterface"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+</qualifiedTypeNameHistroy>

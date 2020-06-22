@@ -9,18 +9,21 @@ import java.io.ObjectInputStream;
 public class ReadPersonObject_ObjectInputStream {
 	public static void main(String[] args) {
 		File file = new File("persons.dat");
+
+		FileInputStream fileInputStream;
 		try {
-			FileInputStream fileInputStream = new FileInputStream(file);
+			fileInputStream = new FileInputStream(file);
 			ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 			Person person = null;
 			person = (Person) objectInputStream.readObject();
 			System.out.println("Read Object " + person);
 		} catch (FileNotFoundException e) {
-			System.out.println(e);
 		} catch (IOException e) {
-			System.out.println(e);
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
 
 		}
+
 	}
 }

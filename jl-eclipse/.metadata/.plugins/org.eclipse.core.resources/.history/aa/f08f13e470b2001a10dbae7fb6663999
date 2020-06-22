@@ -1,0 +1,13 @@
+package functional_programming;
+
+@FunctionalInterface
+interface Addable {
+	int add(int a, int b);
+	//int subtract(int a, int b);
+}
+
+public class CustomLambda {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,13 @@
+package annotations;
+
+import annotations.newp.Test;
+
+public class DeprecatedAnno {
+	public static void main(String[] args) {
+		Test test = new Test();
+		test.testm1();
+		test.testm2();
+		test.testm2new();
+	}
+
+}

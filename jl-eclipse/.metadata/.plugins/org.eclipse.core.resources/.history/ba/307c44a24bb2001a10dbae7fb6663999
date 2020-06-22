@@ -1,0 +1,34 @@
+package multithreading;
+
+public class ThreadNames {
+	public static void main(String[] args) {
+		TestThread testThread1 = new TestThread();
+		TestThread testThread2 = new TestThread();
+		testThread1.setPriority(Thread.MAX_PRIORITY);
+		testThread2.setPriority(Thread.MIN_PRIORITY);
+		testThread1.start();
+		testThread2.start();
+
+//		System.out.println(Thread.MAX_PRIORITY);
+//		System.out.println(Thread.MIN_PRIORITY);
+//		System.out.println(Thread.NORM_PRIORITY);
+
+	}
+}
+
+class TestThread1 extends Thread {
+	public void run() {
+		System.out.println(Thread.currentThread().getName());
+		if (Thread.currentThread().getName().equals("Thread-0")) {
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+
+				e.printStackTrace();
+			}
+		}
+		for (int i = 0; i < 100; i++) {
+			System.out.println(Thread.currentThread().getName() + i);
+		}
+	}
+}
