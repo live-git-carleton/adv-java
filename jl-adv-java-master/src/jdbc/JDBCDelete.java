@@ -2,11 +2,10 @@ package jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JDBCSelectDemo {
+public class JDBCDelete {
 	public static void main(String[] args) {
 		System.out.println("Driver Loaded!");
 // load the driver	
@@ -25,12 +24,11 @@ public class JDBCSelectDemo {
 			Statement statement = connection.createStatement();
 			System.out.println("Statement created!");
 			// Fetch the results by executing the query
-			ResultSet resultSet = statement.executeQuery("select * from user");
-			// Iterate the resultSet
-			while (resultSet.next()) {
-				String firstNameString = resultSet.getString("first_name");
-				System.out.println(firstNameString);
-			}
+			// ResultSet resultSet = statement.execute("select * from actor");
+			// int noOfRowsINstered = statement.executeUpdate("delete from user where
+			// first_name = 'rainy'");
+			int noOfRowsINstered = statement.executeUpdate("delete from user");
+			System.out.println("No Of Rows Deleted : " + noOfRowsINstered);
 
 //			resultSet.close();
 //			statement.close();
